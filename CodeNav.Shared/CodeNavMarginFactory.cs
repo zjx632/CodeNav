@@ -8,7 +8,7 @@ using CodeNav.Models;
 
 namespace CodeNav
 {
-    [Export(typeof(IWpfTextViewMarginProvider))]
+    //[Export(typeof(IWpfTextViewMarginProvider))]
     [Name(CodeNavMargin.MarginName + "Left")]
     [Order(Before = PredefinedMarginNames.Left)]         // Ensure that the margin occurs left of the editor window
     [MarginContainer(PredefinedMarginNames.Left)]       // Set the container to the left of the editor window

@@ -1,4 +1,4 @@
-using CodeNav.Helpers;
+﻿using CodeNav.Helpers;
 using Community.VisualStudio.Toolkit;
 using System.Drawing;
 using System.Runtime.InteropServices;
@@ -39,7 +39,7 @@ public class General : BaseOptionModel<General>
 
     public string FilterRules { get; set; } = string.Empty;
 
-    public int SortOrder { get; set; } = 0;
+    public int SortOrder { get; set; } = 1;
 
     public bool UpdateWhileTyping { get; set; } = false;
 }
